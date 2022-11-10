@@ -11,6 +11,7 @@ import java.util.Optional;
 @RequestMapping("/product")
 public class ProductController {
 
+    @Autowired
     private ProductService productService;
 
     @PostMapping
