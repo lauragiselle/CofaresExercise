@@ -12,6 +12,7 @@ import java.util.Optional;
 @Slf4j
 public class ProductService {
 
+    @Autowired
     private ProductRepository productRepository;
 
     public void createProduct(Product product){
